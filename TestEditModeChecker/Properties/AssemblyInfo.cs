@@ -1,15 +1,15 @@
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TestEditModeChecker")]
-[assembly: AssemblyDescription("Revit Add-In Description for TestEditModeChecker")]
+[assembly: AssemblyDescription("Revit Add-In to check if and when Revit is in 'Edit Mode'")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Autodesk Inc.")]
+[assembly: AssemblyCompany("Neanex Technologies NV")]
 [assembly: AssemblyProduct("TestEditModeChecker Revit C# .NET Add-In")]
-[assembly: AssemblyCopyright("Copyright (C) 2020 by Jeremy Tammik, Autodesk Inc.")]
+[assembly: AssemblyCopyright("Copyright © 2021 by Wolfgang Weh, Neanex Technologies NV.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

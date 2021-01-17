@@ -2,7 +2,7 @@
 <RevitAddIns>
   <AddIn Type="Command">
     <Text>Show/Hide Edit Mode Checker</Text>
-    <Description>Testing app to check if and when Revit is in Edit Mode</Description>
+    <Description>Revit Add-In to check if and when Revit is in 'Edit Mode'</Description>
     <Assembly>TestEditModeChecker.dll</Assembly>
     <FullClassName>TestEditModeChecker.Command</FullClassName>
     <ClientId>55af5136-87a6-415e-9594-09316b5e3e7b</ClientId>
