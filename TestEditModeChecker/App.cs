@@ -38,8 +38,10 @@ namespace TestEditModeChecker
 				return;
 			}
 
+			// show the transaction on the LogForm
 			Globals.LogForm?.WriteLine(transactionName);
 
+			// Show if Revit is in Edit Mode
 			bool editModeOn = _editModeChecker.CheckIfRevitIsInEditMode(transactionName);
 
 			Globals.LogForm?.ShowIfRevitIsInEditMode(editModeOn);

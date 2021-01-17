@@ -12,10 +12,6 @@ namespace TestEditModeChecker
 	{
 		public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
 		{
-			// initialize global properties
-			Initialize(commandData.Application);
-
-
 			if (Globals.LogForm.Visible)
 			{
 				Globals.LogForm.Hide();
@@ -26,7 +22,7 @@ namespace TestEditModeChecker
 #if Revit2017 || Revit2018
 				revitMainWindowHandle = RevitMainWindowSearch.GetWindowHandle();
 #else
-				revitMainWindowHandle = new WindowHandle(UiApplication.MainWindowHandle);
+				revitMainWindowHandle = new WindowHandle(commandData.Application.MainWindowHandle);
 #endif
 				Globals.LogForm.Show(revitMainWindowHandle);
 			}
