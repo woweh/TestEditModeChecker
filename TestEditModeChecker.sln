@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEditModeChecker", "TestEditModeChecker\TestEditModeChecker.csproj", "{CA2C518B-0931-455B-87D3-40A90A343507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-2017|Any CPU = Debug-2017|Any CPU
+		Debug-2018|Any CPU = Debug-2018|Any CPU
+		Debug-2019|Any CPU = Debug-2019|Any CPU
+		Debug-2020|Any CPU = Debug-2020|Any CPU
+		Debug-2021|Any CPU = Debug-2021|Any CPU
+		Release-2017|Any CPU = Release-2017|Any CPU
+		Release-2018|Any CPU = Release-2018|Any CPU
+		Release-2019|Any CPU = Release-2019|Any CPU
+		Release-2020|Any CPU = Release-2020|Any CPU
+		Release-2021|Any CPU = Release-2021|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2017|Any CPU.ActiveCfg = Debug-2017|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2017|Any CPU.Build.0 = Debug-2017|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2018|Any CPU.ActiveCfg = Debug-2018|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2018|Any CPU.Build.0 = Debug-2018|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2019|Any CPU.ActiveCfg = Debug-2019|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2019|Any CPU.Build.0 = Debug-2019|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2020|Any CPU.ActiveCfg = Debug-2020|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2020|Any CPU.Build.0 = Debug-2020|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2021|Any CPU.ActiveCfg = Debug-2021|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Debug-2021|Any CPU.Build.0 = Debug-2021|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2017|Any CPU.ActiveCfg = Release-2017|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2017|Any CPU.Build.0 = Release-2017|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2018|Any CPU.ActiveCfg = Release-2018|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2018|Any CPU.Build.0 = Release-2018|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2019|Any CPU.ActiveCfg = Release-2019|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2019|Any CPU.Build.0 = Release-2019|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2020|Any CPU.ActiveCfg = Release-2020|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2020|Any CPU.Build.0 = Release-2020|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2021|Any CPU.ActiveCfg = Release-2021|Any CPU
+		{CA2C518B-0931-455B-87D3-40A90A343507}.Release-2021|Any CPU.Build.0 = Release-2021|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8ADB50-DA43-45FD-8F36-67B573B5966F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Show/Hide Edit Mode Checker</Text>
+    <Description>Testing app to check if and when Revit is in Edit Mode</Description>
+    <Assembly>TestEditModeChecker.dll</Assembly>
+    <FullClassName>TestEditModeChecker.Command</FullClassName>
+    <ClientId>55af5136-87a6-415e-9594-09316b5e3e7b</ClientId>
+    <VendorId>com.neanex</VendorId>
+    <VendorDescription>Neanex Technologies NV, https://neanex.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application TestEditModeChecker</Name>
+    <Assembly>TestEditModeChecker.dll</Assembly>
+    <FullClassName>TestEditModeChecker.App</FullClassName>
+    <ClientId>ad4a1371-963f-4002-9d78-17ab3e290337</ClientId>
+    <VendorId>com.neanex</VendorId>
+    <VendorDescription>Neanex Technologies NV, https://neanex.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
