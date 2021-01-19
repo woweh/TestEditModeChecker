@@ -109,7 +109,7 @@
     <Compile Include="App.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Globals.cs" />
-    <Compile Include="WindowHandle .cs" />
+    <Compile Include="WindowHandle.cs" />
     <Compile Include="LogForm.cs">
       <SubType>Form</SubType>
     </Compile>
