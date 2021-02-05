@@ -2,11 +2,12 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 
-using static TestEditModeChecker.Globals;
-
 
 namespace TestEditModeChecker
 {
+	/// <summary>
+	/// Command to show/hide the LogForm dialogue.
+	/// </summary>
 	[Transaction(TransactionMode.Manual)]
 	public class Command : IExternalCommand
 	{

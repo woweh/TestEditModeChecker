@@ -6,6 +6,9 @@ using Autodesk.Revit.UI;
 
 namespace TestEditModeChecker
 {
+	/// <summary>
+	/// Revit ExternalApplication which subscribes to the DocumentChanged event to check if Revit is in Edit mode.
+	/// </summary>
 	class App : IExternalApplication
 	{
 		private EditModeChecker _editModeChecker;

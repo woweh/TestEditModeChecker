@@ -3,6 +3,9 @@
 
 namespace TestEditModeChecker
 {
+	/// <summary>
+	/// Helper class to check if Revit is in Edit Mode
+	/// </summary>
 	public class EditModeChecker
 	{
 		/// <summary>
@@ -31,18 +34,18 @@ namespace TestEditModeChecker
 			/// <summary>
 			/// The name of the cancel edit mode transaction.
 			/// </summary>
-			public string Cancel { get; }
+			private string Cancel { get; }
 
 			/// <summary>
 			/// The name of the finish edit mode transaction.
 			/// </summary>
-			public string Finish { get; }
+			private string Finish { get; }
 
 			/// <summary>
 			/// Returns if this 'edit' transaction is cancelled or finished.
 			/// </summary>
-			/// <param name="transactionName">Thee transaction name to check.</param>
-			/// <returns></returns>
+			/// <param name="transactionName">The transaction name to check.</param>
+			/// <returns>True if the transaction is cancelled or finished, otherwise False.</returns>
 			public bool CancelledOrFinished(string transactionName)
 			{
 				return Cancel == transactionName ||
@@ -58,7 +61,9 @@ namespace TestEditModeChecker
 
 		public EditModeChecker()
 		{
-			// TODO: Check if there are more transactions and edit modes
+			// TODO:
+			// - Check if there are more transactions and edit modes
+			// - Add non-English transaction names
 			_transactionInfos = new List<TransactionInfo>
 			{
 				new("Edit Group", "Cancel Edit Group", "Finish Edit Group"),
@@ -83,12 +88,14 @@ namespace TestEditModeChecker
 				CheckIfTransactionIsCancelledOrFinished();
 			}
 
+			// Revit is in Edit Mode if _activeTransaction != null
 			return _activeTransaction != null;
 
+
 			/*
-			 * Check if an _activeTransaction object exists (=> Revit is in 'edit mode').
-			 * If not, check if the transactionName is an 'edit mode' transaction.
-			 */
+			* Check if an _activeTransaction object exists (=> Revit is in 'edit mode').
+			* If not, check if the transactionName is an 'edit mode' transaction.
+			*/
 			bool ActiveTransactionExists()
 			{
 				if (_activeTransaction != null)
@@ -103,12 +110,13 @@ namespace TestEditModeChecker
 			}
 
 			/*
-			 * Check if the active "edit" transaction is Cancelled or Finished
-			 */
+			* Check if the active "edit" transaction is Cancelled or Finished
+			*/
 			void CheckIfTransactionIsCancelledOrFinished()
 			{
 				if (_activeTransaction.CancelledOrFinished(transactionName))
 				{
+					// edit mode has ended
 					_activeTransaction = null;
 				}
 			}

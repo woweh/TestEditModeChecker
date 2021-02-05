@@ -50,6 +50,7 @@ In that case you might want to stop the user from executing the action in the fi
 * https://forums.autodesk.com/t5/revit-api-forum/group-edit-event/m-p/9232010/highlight/true#M43668
 * https://forums.autodesk.com/t5/revit-api-forum/detecting-modify-mode-aka-edit-mode/m-p/5616006
 * https://thebuildingcoder.typepad.com/files/external_events_knowledgebase.html
+* https://thebuildingcoder.typepad.com/blog/2017/10/modeless-form-keep-revit-focus-and-on-top.html
 
 
 ## Sreenshots
