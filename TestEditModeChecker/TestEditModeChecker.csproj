@@ -5,69 +5,51 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
       None
     </ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
-    <TargetFrameworkProfile />
-  </PropertyGroup>
-  <PropertyGroup>
+    <!-- Set default Configuration -->
     <Configuration Condition=" '$(Configuration)' == '' ">Debug-2021</Configuration>
+    <!-- Set default Framework -->
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CA2C518B-0931-455B-87D3-40A90A343507}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TestEditModeChecker</RootNamespace>
     <AssemblyName>TestEditModeChecker</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <!-- Use the latest C# version -->
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug-2021'">
     <RevitVersion>2021</RevitVersion>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release-2021'">
     <RevitVersion>2021</RevitVersion>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug-2020'">
     <RevitVersion>2020</RevitVersion>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release-2020'">
     <RevitVersion>2020</RevitVersion>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug-2019'">
     <RevitVersion>2019</RevitVersion>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release-2019'">
     <RevitVersion>2019</RevitVersion>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug-2018'">
     <RevitVersion>2018</RevitVersion>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release-2018'">
     <RevitVersion>2018</RevitVersion>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)' == 'Debug-2017'">
-    <RevitVersion>2017</RevitVersion>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)' == 'Release-2017'">
-    <RevitVersion>2017</RevitVersion>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="$(Configuration.StartsWith('Debug'))">
     <DebugSymbols>true</DebugSymbols>
